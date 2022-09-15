@@ -192,7 +192,7 @@ const SizeAdjustment = styled.div`
 `;
 
 const TeckStackWrap = styled.div`
-  padding: 10em;
+  padding: 12em;
   h3 {
     font-size: 40px;
     padding: 10px 0;

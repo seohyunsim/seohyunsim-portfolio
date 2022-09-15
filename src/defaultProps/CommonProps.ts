@@ -5,7 +5,7 @@ export const techStacksDefault = [
       logoName: "HTML-5",
     },
     progressBarOption: {
-      rate: "95%",
+      rate: "80%",
       colorTo: "#C3C7DE",
       colorFrom: "#C3C7DE",
       height: "40px",
@@ -17,7 +17,7 @@ export const techStacksDefault = [
       logoName: "CSS-3",
     },
     progressBarOption: {
-      rate: "99%",
+      rate: "85%",
       colorTo: "#544F7C",
       colorFrom: "#544F7C",
       height: "40px",
@@ -29,7 +29,7 @@ export const techStacksDefault = [
       logoName: "Javascript",
     },
     progressBarOption: {
-      rate: "90%",
+      rate: "75%",
       colorTo: "#C3C7DE",
       colorFrom: "#C3C7DE",
       height: "40px",
@@ -41,7 +41,7 @@ export const techStacksDefault = [
       logoName: "Typescript-icon",
     },
     progressBarOption: {
-      rate: "80%",
+      rate: "70%",
       colorTo: "#544F7C",
       colorFrom: "#544F7C",
       height: "40px",
@@ -53,7 +53,7 @@ export const techStacksDefault = [
       logoName: "React",
     },
     progressBarOption: {
-      rate: "85%",
+      rate: "75%",
       colorTo: "#544F7C",
       colorFrom: "#544F7C",
       height: "40px",
@@ -62,10 +62,10 @@ export const techStacksDefault = [
   {
     nameOption: {
       name: "Nextjs",
-      logoName: "Nextjs",
+      logoName: "Nextjs-icon",
     },
     progressBarOption: {
-      rate: "80%",
+      rate: "65%",
       colorTo: "#C3C7DE",
       colorFrom: "#C3C7DE",
       height: "40px",
