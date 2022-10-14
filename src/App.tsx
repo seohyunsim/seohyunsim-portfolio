@@ -20,7 +20,7 @@ import {
 import {
   techStacksDefault,
   historyListDefault,
-  introOptionDefault,
+  introDesDefault,
   contactOptionDefault,
 } from "./defaultProps/CommonProps";
 import styled from "styled-components";
@@ -37,7 +37,7 @@ function App() {
         channels={channelOptionDefault}
       />
       <Carousel
-        id="TOP"
+        id="['TOP', 'akar-icons:align-to-top']"
         width="65%"
         isArrowShow={false}
         isAutoplay={true}
@@ -56,27 +56,31 @@ function App() {
           src="common/banner.png"
         />
       </Carousel>
-      <SizeAdjustment id="INTRO">
+
+      <SizeAdjustment id="['INTRO', 'fa:smile-o']">
         <h3>Intro</h3>
         <Intro
           backgroundColor="white"
           title=""
           shortIntro="세상에 긍정적인 변화를 일으킬 개발자 입니다."
-          description="안녕하세요 :) 개발에 즐거움을 느끼는 프론트엔드 개발자 심서현입니다.\nTypeScript, React 기반으로 개발하고 있으며 UI/UX, 서비스 최적화 등 디테일한 개발을 즐겨하고 개선하고자 노력하고 있습니다.\n진행했던 프로젝트 모두 반응형 UI를 개발하였고 꾸준한 협업도 경험하며 성장하고 있습니다.\n\n단순히 결과에 안주하기 보단 더 좋은 코드를 짜기 위해 노력하고 있습니다.\n클린코드, 꾸준한 리팩터링 등 코드 한 줄도 세심하게 짜기위해 노력하고 있습니다.\n\n이런 제 강점을 살려 더 성장하고, 부족한 부분은 채우며 긍정적인 영향을 주는 개발자가 되도록 하겠습니다."
+          description={introDesDefault}
         />
       </SizeAdjustment>
-      <TeckStackWrap id="SKILL">
+
+      <TeckStackWrap id="['SKILL', 'akar-icons:stack-overflow-fill']">
         <h3>Skill</h3>
         <TechStackList techStackList={techStacksDefault} />
       </TeckStackWrap>
-      <SizeAdjustment id="EXPERIENCE">
+
+      <SizeAdjustment id="['EXPERIENCE', 'bi:card-list']">
         <Experience
           theme="vertical"
           shape="round-square"
           historyList={historyListDefault}
         />
       </SizeAdjustment>
-      <GalleryWrap id="PROJECT">
+
+      <GalleryWrap id="['PROJECT', 'icon-park-outline:picture-album']">
         <h2>Project</h2>
         <Gallery column={2} padding="0em 10em">
           <Item
@@ -99,7 +103,8 @@ function App() {
           />
         </Gallery>
       </GalleryWrap>
-      <SizeAdjustment id="PRESENTATION">
+
+      <SizeAdjustment id="['PRESENTATION', 'entypo:modern-mic']">
         <h3>Presentation</h3>
         <Masonry>
           <Image
@@ -153,8 +158,10 @@ function App() {
           />
         </Masonry>
       </SizeAdjustment>
+
       <Contact
-        id="CONTACT"
+        id="['CONTACT', 'carbon:phone']"
+        buttonBorderColor="lightgrey"
         backgroundColor="#c3c7de33"
         channels={channelOptionDefault}
         aboutMeInfos={[
@@ -187,7 +194,7 @@ function App() {
 export default App;
 
 const SizeAdjustment = styled.div`
-  padding: 10em;
+  padding: 5em 10em;
   h3 {
     margin: 0;
     font-size: 40px;
@@ -203,7 +210,7 @@ const SizeAdjustment = styled.div`
 `;
 
 const TeckStackWrap = styled.div`
-  padding: 12em;
+  padding: 5em 12em;
   h3 {
     font-size: 40px;
     padding: 10px 0;
@@ -218,7 +225,7 @@ const TeckStackWrap = styled.div`
 `;
 
 const GalleryWrap = styled.div`
-  padding: 10em;
+  padding: 5em 10em;
   h2 {
     font-size: 35px;
     padding: 10px 10px 20px 10px;
