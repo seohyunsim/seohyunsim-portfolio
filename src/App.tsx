@@ -11,6 +11,7 @@ import {
   Carousel,
   Experience,
   TechStackInput,
+  VisitorComment,
 } from "dev-portfolio";
 import {
   logoOptionDefault,

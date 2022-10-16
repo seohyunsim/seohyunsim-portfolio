@@ -175,3 +175,5 @@ export const contactOptionDefault = {
     },
   ],
 };
+
+export const dongramiDes = "교내 동아리 커뮤니티 플랫폼 서비스\n\nNext.js, Scss, React-Redux"
