@@ -7,7 +7,7 @@ export const techStacksDefault = [
       logoSize: "30px",
     },
     progressBarOption: {
-      rateText: "80%",
+      rateText: "60%",
       colorTo: "#C3C7DE",
       colorFrom: "#C3C7DE",
       height: "35px",
@@ -21,7 +21,7 @@ export const techStacksDefault = [
       logoSize: "30px",
     },
     progressBarOption: {
-      rateText: "85%",
+      rateText: "75%",
       colorTo: "#544F7C",
       colorFrom: "#544F7C",
       height: "35px",
@@ -35,7 +35,7 @@ export const techStacksDefault = [
       logoSize: "30px",
     },
     progressBarOption: {
-      rateText: "75%",
+      rateText: "60%",
       colorTo: "#C3C7DE",
       colorFrom: "#C3C7DE",
       height: "35px",
@@ -49,7 +49,7 @@ export const techStacksDefault = [
       logoSize: "30px",
     },
     progressBarOption: {
-      rateText: "70%",
+      rateText: "40%",
       colorTo: "#544F7C",
       colorFrom: "#544F7C",
       height: "35px",
@@ -63,7 +63,7 @@ export const techStacksDefault = [
       logoSize: "30px",
     },
     progressBarOption: {
-      rateText: "75%",
+      rateText: "55%",
       colorTo: "#544F7C",
       colorFrom: "#544F7C",
       height: "35px",
@@ -77,7 +77,7 @@ export const techStacksDefault = [
       logoSize: "30px",
     },
     progressBarOption: {
-      rateText: "65%",
+      rateText: "35%",
       colorTo: "#C3C7DE",
       colorFrom: "#C3C7DE",
       height: "35px",
@@ -91,7 +91,7 @@ export const techStacksDefault = [
       logoSize: "30px",
     },
     progressBarOption: {
-      rateText: "40%",
+      rateText: "20%",
       colorTo: "#C3C7DE",
       colorFrom: "#C3C7DE",
       height: "35px",
@@ -105,7 +105,7 @@ export const techStacksDefault = [
       logoSize: "30px",
     },
     progressBarOption: {
-      rateText: "90%",
+      rateText: "70%",
       colorTo: "#544F7C",
       colorFrom: "#544F7C",
       height: "35px",
@@ -176,4 +176,5 @@ export const contactOptionDefault = {
   ],
 };
 
-export const dongramiDes = "교내 동아리 커뮤니티 플랫폼 서비스\n\nNext.js, Scss, React-Redux"
+export const dongramiDes =
+  "교내 동아리 커뮤니티 플랫폼 서비스\n\nNext.js, Scss, React-Redux";
