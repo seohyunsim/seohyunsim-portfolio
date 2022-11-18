@@ -112,8 +112,10 @@ function App() {
         </Gallery>
         <h3 className="subtitle">2. Detail</h3>
         <div className="detailWrap">
-          <span className="title">dev-portfolio</span>
-          <span>2022.03 - 2022.09</span>
+          <div className="titleWrap">
+            <span className="title">dev-portfolio</span>
+            <span>2022.03 - 2022.09</span>
+          </div>
           <div className="des">
             <span>주간 npm 다운로드 수 1,300회 돌파</span>
             <span>2022 공개SW 개발자대회 참가 → 상위 16팀 선정</span>
@@ -127,8 +129,10 @@ function App() {
           </div>
         </div>
         <div className="detailWrap">
-          <span className="title">Kitty Collector</span>
-          <span>2022.06 - 2022.07</span>
+          <div className="titleWrap">
+            <span className="title">Kitty Collector</span>
+            <span>2022.06 - 2022.07</span>
+          </div>
           <div className="des">
             <span>사이드 프로젝트</span>
             <span>• 화살표에 맞춰 고양이들을 옮기는 게임</span>
@@ -140,8 +144,10 @@ function App() {
           </div>
         </div>
         <div className="detailWrap">
-          <span className="title">동그라미</span>
-          <span>2021.08 - 2021. 12</span>
+          <div className="titleWrap">
+            <span className="title">동그라미</span>
+            <span>2021.08 - 2021. 12</span>
+          </div>
           <div className="des">
             <span>SEO 점수 100점/SSR 개발/22년 5월 기준 사용자 400명</span>
             <span>• 교내 동아리 커뮤니티 서비스</span>
@@ -311,6 +317,20 @@ const GalleryWrap = styled.div`
     padding: 10vw;
     h2 {
       font-size: 8vw;
+    }
+    .detailWrap {
+      .titleWrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title {
+          padding: 10px 0;
+        }
+      }
+      .des {
+        padding: 2em 10px;
+        gap: 5px;
+      }
     }
   }
 `;
