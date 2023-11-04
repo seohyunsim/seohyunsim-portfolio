@@ -22,12 +22,6 @@ export const channelOptionDefault = [
     color: "#20C997",
     size: "30px",
   },
-  {
-    name: "instagram",
-    redirectUrl: "https://www.instagram.com/seohvvun/",
-    color: "#E1306C",
-    size: "30px",
-  },
 ];
 
 export const sideBarOptionDefault = {
