@@ -1,10 +1,11 @@
 export const logoOptionDefault = {
   redirectUrl: "./",
-  title: "방가방가 서현이의 포트폴리오 입니다 🙋‍♀️",
-  logoImg: "common/logo.png",
-  logoMargin: "30px",
-  logoWidth: "70px",
-  logoHeight: "",
+  title: "1년차 프론트엔드 개발자, 심서현입니다 🙇‍♂️",
+  // logoImg: "common/logo.png",
+  logoHidden: true,
+  // logoMargin: "30px",
+  // logoWidth: "70px",
+  // logoHeight: "",
   titleSize: "21px",
   titleWeight: "800",
 };
