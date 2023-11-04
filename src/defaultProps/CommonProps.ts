@@ -118,18 +118,25 @@ export const introDesDefault =
 
 export const historyListDefault = [
   {
+    startDate: "2023.01",
+    endDate: "재직중",
+    title: "자이언트스텝",
+    description:
+      "웹 플랫폼 개발\n\n프론트엔드 개발자로 여러 프로젝트를 개발합니다.\n주로 관리자 및 사내 백오피스 개발을 담당하고 있습니다.",
+  },
+  // {
+  //   startDate: "2021.05",
+  //   endDate: "2022.01",
+  //   title: "모던 애자일",
+  //   description:
+  //     "서비스 개발\n\n프론트앤드 개발자로 활동하며 서비스를 개발했습니다.\n애자일 협업방식을 따르며 체계적인 개발을 진행했습니다.",
+  // },
+  {
     startDate: "2021.01",
     endDate: "2021.02",
     title: "미식의 시대",
     description:
       "스타트업 인턴십\n\n약 6주간 인턴십을 진행했습니다.\n주로 SQL, QA업무를 진행했습니다.",
-  },
-  {
-    startDate: "2021.05",
-    endDate: "2022.01",
-    title: "모던 애자일",
-    description:
-      "서비스 개발\n\n프론트앤드 개발자로 활동하며 서비스를 개발했습니다.\n애자일 협업방식을 따르며 체계적인 개발을 진행했습니다.",
   },
 ];
 

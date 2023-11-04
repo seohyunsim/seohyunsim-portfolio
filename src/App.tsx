@@ -40,7 +40,7 @@ function App() {
       />
       <Carousel
         id="['TOP', 'akar-icons:align-to-top']"
-        width="65%"
+        width="82%"
         isArrowShow={false}
         isAutoplay={true}
         transition={1}
@@ -59,14 +59,14 @@ function App() {
         />
       </Carousel>
 
-      <SizeAdjustment id="['INTRO', 'fa:smile-o']">
+      {/* <SizeAdjustment id="['INTRO', 'fa:smile-o']">
         <Intro
           backgroundColor="white"
           title=""
           shortIntro=""
           description={introDesDefault}
         />
-      </SizeAdjustment>
+      </SizeAdjustment> */}
 
       <TeckStackWrap id="['SKILL', 'akar-icons:stack-overflow-fill']">
         <h3>Skill</h3>
@@ -144,6 +144,18 @@ function App() {
             iconName="vscode-icons:file-type-vanilla-extract"
             iconSize="40px"
           />
+          <Skill
+            title="npm"
+            titleSize="16px"
+            iconName="logos:npm-icon"
+            iconSize="32px"
+          />
+          <Skill
+            title="github-action"
+            titleSize="16px"
+            iconName="logos:github-actions"
+            iconSize="35px"
+          />
         </SkillWrapper>
       </TeckStackWrap>
 
@@ -158,7 +170,7 @@ function App() {
       <GalleryWrap id="['PROJECT', 'icon-park-outline:picture-album']">
         <h2>Project</h2>
         <h3 className="subtitle">1. Summary</h3>
-        <Gallery column={2} padding="0em 10em">
+        <Gallery column={2} padding="0em 3em">
           <Item
             redirectURL="https://dongurami.co.kr/"
             src="common/circle.png"
@@ -234,7 +246,7 @@ function App() {
         </div>
       </GalleryWrap>
 
-      <SizeAdjustment id="['PRESENTATION', 'entypo:modern-mic']">
+      {/* <SizeAdjustment id="['PRESENTATION', 'entypo:modern-mic']">
         <h3>Presentation</h3>
         <Masonry>
           <Image
@@ -287,7 +299,7 @@ function App() {
             head="css와 scss"
           />
         </Masonry>
-      </SizeAdjustment>
+      </SizeAdjustment> */}
 
       <Contact
         id="['CONTACT', 'carbon:phone']"
@@ -296,16 +308,12 @@ function App() {
         channels={channelOptionDefault}
         aboutMeInfos={[
           {
-            title: "Residence",
-            description: "Seoul, Republic of Korea",
+            title: "Major",
+            description: "컴퓨터전자공학 전공",
           },
           {
-            title: "Birth",
-            description: "2000. 11. 20",
-          },
-          {
-            title: "MBTI",
-            description: "ESFP || ENFP",
+            title: "Email",
+            description: "ssh123661@gmail.com",
           },
           {
             title: "Phone",
@@ -314,7 +322,7 @@ function App() {
         ]}
         title="저에 대해 더 궁금하신가요?"
         subTitle="주저하지 말고 지금 바로 📧📲"
-        email="ssh4563@naver.com"
+        email="ssh123661@gmail.com"
         buttonText="Come here to send mail !"
       />
     </div>
@@ -354,7 +362,7 @@ const TeckStackWrap = styled.div`
 `;
 
 const GalleryWrap = styled.div`
-  padding: 5em 10em;
+  padding: 8em 5em;
   h2 {
     font-size: 35px;
     padding: 10px 10px 20px 10px;
