@@ -12,6 +12,7 @@ import {
   Experience,
   TechStackInput,
   VisitorComment,
+  Skill,
 } from "dev-portfolio";
 import {
   logoOptionDefault,
@@ -59,18 +60,91 @@ function App() {
       </Carousel>
 
       <SizeAdjustment id="['INTRO', 'fa:smile-o']">
-        <h3>Intro</h3>
         <Intro
           backgroundColor="white"
           title=""
-          shortIntro="세상에 긍정적인 변화를 일으킬 개발자 입니다."
+          shortIntro=""
           description={introDesDefault}
         />
       </SizeAdjustment>
 
       <TeckStackWrap id="['SKILL', 'akar-icons:stack-overflow-fill']">
         <h3>Skill</h3>
-        <TechStackList techStackList={techStacksDefault} />
+        <SkillWrapper>
+          <Skill
+            title="Javascript"
+            titleSize="16px"
+            iconName="ion:logo-javascript"
+            iconSize="40px"
+            iconColor="#F0DB4F"
+          />
+          <Skill
+            title="Typescript"
+            titleSize="16px"
+            iconName="logos:typescript-icon"
+            iconSize="35px"
+          />
+          <Skill
+            title="React"
+            titleSize="16px"
+            iconName="logos:react"
+            iconSize="35px"
+          />
+          <Skill
+            title="Next.js"
+            titleSize="16px"
+            iconName="devicon:nextjs"
+            iconSize="35px"
+          />
+          <Skill
+            title="Recoil"
+            titleSize="16px"
+            iconName="logos:recoil"
+            iconSize="32px"
+          />
+          <Skill
+            title="Zustand"
+            titleSize="16px"
+            iconName="fluent-emoji-flat:bear"
+            iconSize="40px"
+          />
+          <Skill
+            title="HTML"
+            titleSize="16px"
+            iconName="vscode-icons:file-type-html"
+            iconSize="40px"
+          />
+          <Skill
+            title="CSS"
+            titleSize="16px"
+            iconName="vscode-icons:file-type-css"
+            iconSize="40px"
+          />
+          <Skill
+            title="Scss"
+            titleSize="16px"
+            iconName="vscode-icons:file-type-scss2"
+            iconSize="40px"
+          />
+          <Skill
+            title="Style-Component"
+            titleSize="16px"
+            iconName="vscode-icons:file-type-styled"
+            iconSize="40px"
+          />
+          <Skill
+            title="Emotion"
+            titleSize="16px"
+            iconName="skill-icons:emotion-light"
+            iconSize="40px"
+          />
+          <Skill
+            title="Vanilla-Extract"
+            titleSize="16px"
+            iconName="vscode-icons:file-type-vanilla-extract"
+            iconSize="40px"
+          />
+        </SkillWrapper>
       </TeckStackWrap>
 
       <SizeAdjustment id="['EXPERIENCE', 'bi:card-list']">
@@ -250,10 +324,10 @@ function App() {
 export default App;
 
 const SizeAdjustment = styled.div`
-  padding: 5em 10em;
+  padding: 0em 2em;
   h3 {
     margin: 0;
-    font-size: 40px;
+    font-size: 30px;
     padding: 10px 0;
     border-bottom: 1px solid;
   }
@@ -266,14 +340,13 @@ const SizeAdjustment = styled.div`
 `;
 
 const TeckStackWrap = styled.div`
-  padding: 3em 12em 5em 12em;
+  padding: 3em 5em;
   h3 {
-    font-size: 40px;
+    font-size: 35px;
     padding: 10px 0;
     border-bottom: 1px solid;
   }
   @media screen and (max-width: 768px) {
-    padding: 10vw;
     h3 {
       font-size: 8vw;
     }
@@ -333,4 +406,14 @@ const GalleryWrap = styled.div`
       }
     }
   }
+`;
+
+const SkillWrapper = styled.div`
+  padding: 0px 1em;
+  margin-bottom: 8em;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
 `;
