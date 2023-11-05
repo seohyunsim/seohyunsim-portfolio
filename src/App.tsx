@@ -275,7 +275,7 @@ function App() {
           </div>
           <div className="des">
             <span>주간 npm 다운로드 수 1,300회 돌파</span>
-            <span>2022 공개SW 개발자대회 참가 → 상위 16팀 선정</span>
+            <span>수상 - 2022 공개SW 개발자대회 은상</span>
             <span>• 쉽고 빠르게 포트폴리오를 만들 수 있는 npm 라이브러리</span>
             <span>• 기술 : Typescript, React, styled-components, npm</span>
             <span>
@@ -294,9 +294,7 @@ function App() {
             <span>사이드 프로젝트</span>
             <span>• 화살표에 맞춰 고양이들을 옮기는 게임</span>
             <span>• 기술 : Typescript, React, styled-components, vercel</span>
-            <span>
-              • 목적 : 협업이 아닌 개인 역량으로 만 개발해 보고자 진행
-            </span>
+            <span>• 목적 : 협업이 아닌 개인 역량으로만 개발해 보고자 진행</span>
             <span>• 활동 : 기획/개발/배포 전반 담당</span>
           </div>
         </div>
@@ -379,6 +377,10 @@ function App() {
         channels={channelOptionDefault}
         aboutMeInfos={[
           {
+            title: "Birth",
+            description: "2000.11.20",
+          },
+          {
             title: "Major",
             description: "컴퓨터전자공학 전공",
           },
@@ -386,13 +388,9 @@ function App() {
             title: "Email",
             description: "ssh123661@gmail.com",
           },
-          {
-            title: "Phone",
-            description: "010 9572 3357",
-          },
         ]}
         title="저에 대해 더 궁금하신가요?"
-        subTitle="주저하지 말고 지금 바로 📧📲"
+        subTitle=""
         email="ssh123661@gmail.com"
         buttonText="Come here to send mail !"
       />
@@ -419,7 +417,7 @@ const SizeAdjustment = styled.div`
 `;
 
 const TeckStackWrap = styled.div`
-  padding: 3em 5em;
+  padding: 10em 5em 2em 5em;
   h3 {
     font-size: 35px;
     padding: 10px 0;
