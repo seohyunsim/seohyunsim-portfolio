@@ -210,11 +210,17 @@ function App() {
             iconSize="40px"
           />
           <Skill
+            title="Storybook"
+            titleSize="16px"
+            iconName="vscode-icons:file-type-storybook"
+            iconSize="40px"
+          />
+          {/* <Skill
             title="Vanilla-Extract"
             titleSize="16px"
             iconName="vscode-icons:file-type-vanilla-extract"
             iconSize="40px"
-          />
+          /> */}
           <Skill
             title="npm"
             titleSize="16px"
