@@ -1,0 +1,93 @@
+export const skillsConfig = [
+  {
+    title: "Javascript",
+    titleSize: "16px",
+    iconName: "ion:logo-javascript",
+    iconSize: "40px",
+    iconColor: "#F0DB4F",
+  },
+  {
+    title: "Typescript",
+    titleSize: "16px",
+    iconName: "logos:typescript-icon",
+    iconSize: "35px",
+  },
+  {
+    title: "React",
+    titleSize: "16px",
+    iconName: "logos:react",
+    iconSize: "35px",
+  },
+  {
+    title: "Next.js",
+    titleSize: "16px",
+    iconName: "devicon:nextjs",
+    iconSize: "35px",
+  },
+  {
+    title: "Recoil",
+    titleSize: "16px",
+    iconName: "logos:recoil",
+    iconSize: "32px",
+  },
+  {
+    title: "Zustand",
+    titleSize: "16px",
+    iconName: "fluent-emoji-flat:bear",
+    iconSize: "40px",
+  },
+  {
+    title: "HTML",
+    titleSize: "16px",
+    iconName: "vscode-icons:file-type-html",
+    iconSize: "40px",
+  },
+  {
+    title: "CSS",
+    titleSize: "16px",
+    iconName: "vscode-icons:file-type-css",
+    iconSize: "40px",
+  },
+  {
+    title: "Scss",
+    titleSize: "16px",
+    iconName: "vscode-icons:file-type-scss2",
+    iconSize: "40px",
+  },
+  {
+    title: "Style-Component",
+    titleSize: "16px",
+    iconName: "vscode-icons:file-type-styled",
+    iconSize: "40px",
+  },
+  {
+    title: "Emotion",
+    titleSize: "16px",
+    iconName: "skill-icons:emotion-light",
+    iconSize: "40px",
+  },
+  {
+    title: "Storybook",
+    titleSize: "16px",
+    iconName: "vscode-icons:file-type-storybook",
+    iconSize: "40px",
+  },
+  {
+    title: "Vanilla-Extract",
+    titleSize: "16px",
+    iconName: "vscode-icons:file-type-vanilla-extract",
+    iconSize: "40px",
+  },
+  {
+    title: "npm",
+    titleSize: "16px",
+    iconName: "logos:npm-icon",
+    iconSize: "32px",
+  },
+  {
+    title: "github-action",
+    titleSize: "16px",
+    iconName: "logos:github-actions",
+    iconSize: "35px",
+  },
+];
