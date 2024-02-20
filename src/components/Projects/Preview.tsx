@@ -25,7 +25,7 @@ export const Preview = () => {
           description="포트폴리오 개발 오픈소스 라이브러리"
         />
         <Item
-          // redirectURL="http://52.78.64.144/"
+          redirectURL="https://dev-portfolio-app.vercel.app/"
           src="common/dev-demo-app.png"
           title="dev-portfolio-demo-app"
           description="dev-portfolio를 활용한 demo app"
