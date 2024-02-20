@@ -60,8 +60,7 @@ function App() {
         />
       </Carousel>
 
-      <IntroduceBanner>
-        {/* <h3>안녕하세요</h3> */}
+      {/* <IntroduceBanner>
         <div className="wrapper">
           <div className="detailWrap">
             <div className="titleWrap">
@@ -128,7 +127,7 @@ function App() {
             </div>
           </div>
         </div>
-      </IntroduceBanner>
+      </IntroduceBanner> */}
 
       {/* <SizeAdjustment id="['INTRO', 'fa:smile-o']">
         <Intro
@@ -215,12 +214,12 @@ function App() {
             iconName="vscode-icons:file-type-storybook"
             iconSize="40px"
           />
-          {/* <Skill
+          <Skill
             title="Vanilla-Extract"
             titleSize="16px"
             iconName="vscode-icons:file-type-vanilla-extract"
             iconSize="40px"
-          /> */}
+          />
           <Skill
             title="npm"
             titleSize="16px"
@@ -236,20 +235,20 @@ function App() {
         </SkillWrapper>
       </TeckStackWrap>
 
-      <SizeAdjustment id="['EXPERIENCE', 'bi:card-list']">
+      <div style={{ padding: "0em 3em" }} id="['EXPERIENCE', 'bi:card-list']">
         <Experience
           theme="vertical"
           shape="round-square"
           historyList={historyListDefault}
         />
-      </SizeAdjustment>
+      </div>
 
       <GalleryWrap id="['PROJECT', 'icon-park-outline:picture-album']">
         <h2>Project</h2>
         <h3 className="subtitle">1. Summary</h3>
         <Gallery column={2} padding="0em 3em">
           <Item
-            redirectURL="https://dongurami.co.kr/"
+            redirectURL="https://seohyunsim.notion.site/22bbc3b33c9043b49084caea41a35bc4?pvs=74"
             src="common/circle.png"
             title="동그라미"
             description="교내 동아리 커뮤니티 플랫폼 서비스"
@@ -267,7 +266,7 @@ function App() {
             description="포트폴리오 개발 오픈소스 라이브러리"
           />
           <Item
-            redirectURL="http://52.78.64.144/"
+            // redirectURL="http://52.78.64.144/"
             src="common/dev-demo-app.png"
             title="dev-portfolio-demo-app"
             description="dev-portfolio를 활용한 demo app"
@@ -300,7 +299,6 @@ function App() {
             <span>사이드 프로젝트</span>
             <span>• 화살표에 맞춰 고양이들을 옮기는 게임</span>
             <span>• 기술 : Typescript, React, styled-components, vercel</span>
-            <span>• 목적 : 협업이 아닌 개인 역량으로만 개발해 보고자 진행</span>
             <span>• 활동 : 기획/개발/배포 전반 담당</span>
           </div>
         </div>
@@ -321,7 +319,7 @@ function App() {
         </div>
       </GalleryWrap>
 
-      {/* <SizeAdjustment id="['PRESENTATION', 'entypo:modern-mic']">
+      <SizeAdjustment id="['PRESENTATION', 'entypo:modern-mic']">
         <h3>Presentation</h3>
         <Masonry>
           <Image
@@ -374,7 +372,7 @@ function App() {
             head="css와 scss"
           />
         </Masonry>
-      </SizeAdjustment> */}
+      </SizeAdjustment>
 
       <Contact
         id="['CONTACT', 'carbon:phone']"
@@ -407,7 +405,7 @@ function App() {
 export default App;
 
 const SizeAdjustment = styled.div`
-  padding: 0em 2em;
+  padding: 0em 5em;
   h3 {
     margin: 0;
     font-size: 30px;
@@ -423,7 +421,7 @@ const SizeAdjustment = styled.div`
 `;
 
 const TeckStackWrap = styled.div`
-  padding: 10em 5em 2em 5em;
+  padding: 3em 5em;
   h3 {
     font-size: 35px;
     padding: 10px 0;
