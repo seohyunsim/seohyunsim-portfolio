@@ -1,6 +1,6 @@
 export const logoOptionDefault = {
   redirectUrl: "./",
-  title: "2년차 프론트엔드 개발자, 심서현입니다 🙇‍♂️",
+  title: "3년차 프론트엔드 개발자, 심서현입니다 🙇‍♂️",
   // logoImg: "common/logo.png",
   logoHidden: true,
   // logoMargin: "30px",

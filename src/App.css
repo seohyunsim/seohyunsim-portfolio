@@ -15,11 +15,6 @@ body {
 .App {
   font-family: "Pretendard-Regular";
   background-color: white;
-
-  border-left: 1px solid #c9c9c9;
-  border-right: 1px solid #c9c9c9;
-
-  margin: 0em 12vw;
 }
 
 @media screen and (max-width: 768px) {
